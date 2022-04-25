@@ -1,0 +1,34 @@
+#nav-main .container{
+    grid-template-columns: 1fr;
+    
+}
+#nav-main .social{
+    display: none;
+}
+#nav-main ul{
+ justify-self: center;
+ padding: 0.5rem;
+}
+#nav-main .logo
+{
+    justify-self: center;
+}
+#showcase .showcase-container
+{
+    grid-template-columns:1fr ;
+}
+#sec-home .sec-container{
+    grid-template-columns: repeat(1,1fr);
+}
+#sec-home .sec-container>*:first-child,
+#sec-home .sec-container>*:last-child{
+    grid-template-columns: 1fr;
+    grid-column: 1;
+}
+#footer .footer-container{
+    grid-template-columns: repeat(1,1fr)
+
+}
+#footer-org{
+    grid-column: 1;
+}
